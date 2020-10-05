@@ -1,0 +1,10 @@
+/* pages/img/img.wxss */
+.head_tiele{background-color: #E8F1F0;
+color: #717a78;
+height: 30px;
+line-height: 30px;
+padding-left: 20px;
+}
+.list{
+  height: 1102px;
+}

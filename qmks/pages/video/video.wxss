@@ -1,0 +1,11 @@
+.btn{
+  margin: 10px;
+  background:green;
+  font-size: 15px;
+}
+input{
+  border: 1px solid gray;
+  margin: 10px;
+  padding-left: 10px;
+  height: 40px
+}

@@ -1,0 +1,8 @@
+<!--pages/third/third.wxml-->
+<view wx:for="{{i}}" wx:for-item="i">
+  <view wx:for="{{j}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view>

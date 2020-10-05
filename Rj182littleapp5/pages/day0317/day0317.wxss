@@ -1,0 +1,16 @@
+.header-view{
+height: 150px;
+background-color: red;
+}
+.success-view{
+background-color: gray;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.success-icon{
+  padding-right: 15px;
+}
+.success-text{
+  font-size: 25px;
+}

@@ -1,0 +1,5 @@
+<template name="template2">
+  <view>
+    条件为false
+  </view>
+</template>s

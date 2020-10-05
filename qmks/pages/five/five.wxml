@@ -1,0 +1,4 @@
+<view>
+<button bindtap='set'>保存本地数据</button>
+<button bindtap='get'>读取本地数据</button>
+</view>

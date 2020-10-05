@@ -1,0 +1,15 @@
+<form bindsubmit="handleFormSubmit">
+<view class="sound">声音</view>
+<switch class="switch" bindchange="handchange"></switch>
+<view class="volume">音量</view>
+<slider bindchange="sliderchange" class="slider" show-value="true" min="0" max="100" backgroundColor="	#FFD700"></slider>
+<view class="peizhi">配置名</view>
+<input name="searchinput" class="search-input" placeholder="输入配置名称" ></input>
+<button class="search-button" form-type="submit">
+确认
+</button>
+<button class="reset-button" form-type="reset">
+重置
+</button>
+</form>
+

@@ -1,0 +1,9 @@
+<!--pages/four/four.wxml-->
+<form  bindsubmit="formBindsubmit" bindreset="formReset" >
+<view  class="tishi">请输入第一个数字：</view>
+<input name="firstid" class="input" />
+<view  class="tishi">请输入第二个数字：</view>
+<input name="secid" class="input" />
+<button class="button" formType="submit"> 比较 </button>
+<view wx:if="{{firstid<secid}}"> 比较结果：第一个数字大 </view>
+</form>

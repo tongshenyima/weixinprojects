@@ -1,0 +1,18 @@
+/* pages/day0313_1/day0313_1.wxss */
+.flex-container{
+display: flex;
+flex-direction: column
+}
+.myview{
+  width: 90px;
+  height: 90px;
+}
+.one{
+background-color: red
+}
+.two{
+background-color: greenyellow
+}
+.three{
+background-color: blueviolet
+}

@@ -1,0 +1,6 @@
+<!--pages/center/center.wxml-->
+<text>pages/center/center.wxml</text>
+<text>{{a+b}}+{{c}}+d</text>
+<view>
+  <text>{{object.key}}</text>
+</view>

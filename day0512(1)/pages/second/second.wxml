@@ -1,0 +1,7 @@
+<txv-video vid="{{vid}}"playerid="{{playerid}}"enableDanmu="{{ture}}"danmuBtn="{{ture}}"danmuList="{{danmuList}}"></txv-video>
+<input placeholder="输入弹幕" bindblur="blur"></input>
+<view class="btns">
+<button class="btn" bindtap="sendDanmu">发送弹幕</button>
+<button class="btn"  bindtap="play">播放</button>
+<button class="btn" bindtap="pause">暂停</button>
+</view>

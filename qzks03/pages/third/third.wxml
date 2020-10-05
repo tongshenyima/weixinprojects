@@ -1,0 +1,10 @@
+<!--pages/third/third.wxml-->
+<import src="../template1/template1"/>
+<import src="../tempatle1/template2"/>
+<text>{{title}}</text>
+<view wx:for="{{array}}">
+  {{item.message}}
+</view>
+
+  <view wx:if="2>1"> <template is="template1"/> </view>
+  <view wx:else> <template is="template2"/> </view>

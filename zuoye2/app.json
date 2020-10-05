@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/center/center",
+    "pages/weiqiuquan/qwiqiuquan",
+    "pages/weiqiuxun/weiqiuxun"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+"tabBar": {
+  "backgroundColor": "#ffffff",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "我的队",
+      "selectedIconPath": "img/myteamselected.png",
+      "iconPath": "img/myteam.png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "微球榜",
+      "selectedIconPath": "img/rankselected.png",
+      "iconPath": "img/rankselected.png"
+    },
+    {
+      "pagePath": "pages/center/center",
+      "text": "微投票",
+      "selectedIconPath": "img/voteselected.png",
+      "iconPath": "img/voteselected.png"
+    },
+    {
+      "pagePath": "pages/weiqiuquan/qwiqiuquan",
+      "text": "微投票",
+      "selectedIconPath": "img/infoselected.png",
+      "iconPath": "img/infoselected.png"
+    },
+    {
+      "pagePath": "pages/weiqiuxun/weiqiuxun",
+      "text": "微投票",
+      "selectedIconPath": "img/circleselected.png",
+      "iconPath": "img/circleselected.png"
+    }
+  ]
+},
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,20 @@
+<form bindsubmit="handleFormSubmit">
+<view class="title-view">
+<text>单选题</text>
+</view>
+<view class="stem-view">
+<text>{{question.stem}}</text>
+</view>
+<view class="candidates-view">
+<radio-group name="radiogroup" >
+<view class="my-radio" wx:for="{{question.candidates}}"wx:key="item"> 
+<radio value="{{item.no}}" checked="{{false}}" />{{item.value}}
+</view>
+</radio-group>
+<text class="myresult">{{result}}</text>
+</view>
+<view class="btns-view">
+<button class="btn-submit" form-type="submit">提交答案</button>
+<button class="btn-reset" form-type="reset">重新答题</button>
+</view>
+</form>

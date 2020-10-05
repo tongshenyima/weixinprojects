@@ -1,0 +1,4 @@
+<!--pages/forth/forthz.wxml-->
+<view class="my-view"bintip="handleTop">
+这是一个单机事件
+</view>

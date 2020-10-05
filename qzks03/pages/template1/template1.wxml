@@ -1,0 +1,5 @@
+<template name="template1">
+  <view>
+    条件为ture
+  </view>
+</template>

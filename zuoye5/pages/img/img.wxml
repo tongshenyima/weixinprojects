@@ -1,0 +1,20 @@
+<view class="head_tiele"> 共有{{total}}名成员</view>
+<scroll-view class="scroll-view" style="height:650px" scroll-y="{{true}}" bindscrolltolower="scrolltolower">
+  <view class="list" wx:for="{{array}}">
+    <view class="item item-{{index%2==0?'add':'even'}}:">
+      <image class="avtar" src="{{item.image}}">
+      </image>
+      <view class="center">
+        <view class="title_view">
+          <text class="title">{{item.title}}</text>
+        </view>
+      </view>
+      <view class="right">
+        <view class="arrow_view">
+          <image class="arrow" src="../pic/arrow.png">
+          </image>
+        </view>
+      </view>
+    </view>
+  </<view>
+</scroll-view>

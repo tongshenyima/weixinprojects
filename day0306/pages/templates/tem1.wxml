@@ -1,0 +1,3 @@
+<template name="temp1">
+  <view>条件为ture</view>
+</template>

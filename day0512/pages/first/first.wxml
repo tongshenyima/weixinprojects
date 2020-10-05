@@ -1,0 +1,2 @@
+<!--pages/first/first.wxml-->
+<canvas canvas-id="{{canvasid}}"></canvas>

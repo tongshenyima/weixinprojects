@@ -1,0 +1,21 @@
+<view class="page">
+<view>
+<image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585040336576&di=b685cb87d544b9bc49dc8c0e5e3c4ef2&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201609%2F13%2F20160913232843_dTWYn.jpeg" >
+</image>
+</view>
+<view>
+<image src="../img/111.jfif"></image>
+</view>
+  <view class="page__hd">
+    <text class="page__title">image</text>
+    <text class="page__desc">图片</text>
+  </view>
+  <view class="page__bd">
+    <view class="section section_gap" wx:for-items="{{array}}" wx:for-item="item">
+      <view class="section__title">{{item.text}}</view>
+      <view class="section__ctn">
+        <image style="width: 200px; height: 200px; background-color: #eeeeee;" mode="{{item.mode}}" src="{{src}}"></image>
+      </view>
+    </view>
+  </view>
+</view>

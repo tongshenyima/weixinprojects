@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/usercenter/sercenter",
+    "pages/home/home",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "pages/img/home.png",
+        "selectedIconPath": "pages/img/homeselected.png"
+      },
+      {
+        "pagePath": "pages/usercenter/sercenter",
+        "text": "usercenter",
+        "iconPath": "pages/img/usercenter.png",
+        "selectedIconPath": "pages/img/usercenterselected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "index"
+        
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

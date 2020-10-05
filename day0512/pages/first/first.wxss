@@ -1,0 +1,8 @@
+/* pages/first/first.wxss */
+canvas{
+  width: 370px;
+  height: 150px;
+  display: block;
+  position: relative;
+  border: 1px solid red;
+}

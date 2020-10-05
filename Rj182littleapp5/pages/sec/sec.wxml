@@ -1,0 +1,3 @@
+<!--pages/sec/sec.wxml-->
+<view wx:for="{{array}}">
+{{index}},{{item.name}},{{item.sex}},{{item.age}}</view>

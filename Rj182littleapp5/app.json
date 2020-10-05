@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/day0320/day0320",
+    
+    "pages/day0317/day0317",
+    "pages/day0313_1/day0313_1",
+    "pages/day0313/day0313",
+    "pages/forth/forthz",
+    "pages/third/third",
+    "pages/sec/sec",
+    "pages/index/index",
+    "pages/logs/logs" 
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

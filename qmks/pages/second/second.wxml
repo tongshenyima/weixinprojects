@@ -1,0 +1,12 @@
+<import src="template1.wxml"/>
+<import src="template2.wxml"/>
+<view> {{title}} </view>
+<view wx:for="{{array}}">
+{{item}}
+</view>
+<view wx:if="{{true}}">
+<template is="true"></template>
+</view>
+<view wx:else>
+<template is="false"></template>
+</view>

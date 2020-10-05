@@ -1,0 +1,6 @@
+/* pages/five/five.wxss */
+.radio{display:block;margin-left: 20px;margin-right: 20px;}
+.box{display: block;margin-left: 20px;margin-right:20px; }
+.view{margin-left: 20px;margin-right: 20px;}
+.input{border-bottom: 1px solid gray;margin: 20px;}
+.textarea{border: 1px solid gray;margin: 20px;}

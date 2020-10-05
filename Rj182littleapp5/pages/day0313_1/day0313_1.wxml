@@ -1,0 +1,8 @@
+<!--pages/day0313_1/day0313_1.wxml-->
+<scroll-view style="height:200px" scroll-y="{{true}}" bindscrolltolower="handleScrollToLower">
+<view class="myview one">1</view>
+<view class="myview two">2</view>
+<view class="myview three">3</view>
+</scroll-view>
+
+

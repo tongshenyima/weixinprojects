@@ -1,0 +1,6 @@
+<view>2021年7月1日，是建党一百周年纪念日？</view>
+<radio-group class="radio-group" bindchange="radioChange">
+<radio class="radio" value="回答正确">是</radio>
+<radio class="radio" value="回答错误">否</radio>
+</radio-group>
+<view>{{message}}</view>

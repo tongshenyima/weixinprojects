@@ -1,0 +1,4 @@
+/* pages/forth/forthz.wxss */
+.my-view{
+  margin: 10px;
+}

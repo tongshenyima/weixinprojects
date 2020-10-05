@@ -1,0 +1,11 @@
+/* pages/second/second.wxss */
+.btn{
+  margin: 10px;
+  background: orange;
+}
+input{
+  margin: 10px;
+  height: 40px;
+  border: 1px solid gray;
+  padding-left: 10px;
+}

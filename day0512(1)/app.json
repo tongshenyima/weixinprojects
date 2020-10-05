@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/record/record",
+    "pages/second/second",
+    "pages/first/first",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.3.13",
+      "provider": "wxa75efa648b60994b"
+    }
+  }
+}

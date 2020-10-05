@@ -1,0 +1,7 @@
+<!--pages/first/first.wxml-->
+<import src="../templates/tem1"/>
+<import src="../templates/tem2"/>
+
+
+<template is="temp1"></template>
+<template is="temp2" data="{{content}}"></template>

@@ -1,0 +1,20 @@
+<!--pages/five/five.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="view"  >姓名：</view>
+<input class="input" bindinput="name"></input>
+<view class="view">性别:</view>
+<radio-group bindchange="radioChange">
+<radio class="radio" value="男">男</radio>
+<radio class="radio" value="女">女</radio>
+</radio-group>
+<view class="view">专业技能:</view>
+<checkbox-group bindchange="checkboxChange">
+<checkbox class="box" value="HTML">HTML</checkbox>
+<checkbox class="box" value="CSS">CSS</checkbox>
+<checkbox class="box" value="JS">JS</checkbox>
+<checkbox class="box" value="PS">PS</checkbox>
+</checkbox-group>
+<view class="view">您的意见:</view>
+<textarea class="textarea" bindinput="textarea"></textarea>
+<button form-type="submit">提交</button>
+</form>

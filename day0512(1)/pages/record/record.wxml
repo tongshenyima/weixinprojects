@@ -1,0 +1,12 @@
+<!--pages/record/record.wxml-->
+<view class="header"> 
+<text>录音</text>
+</view>
+<view class="btns_view">
+<button class="btn" bindtap="startRecord">开始录音</button>
+<button class="btn" bindtap="stopRecord">停止录音</button>
+<button class="btn" bindtap="playRecord">播放录音</button>
+</view>
+<view class="time">
+<text>{{formatRecordTime}}</text>
+</view>
